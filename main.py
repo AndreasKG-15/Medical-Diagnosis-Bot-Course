@@ -79,7 +79,7 @@ def main():
             # Start a new diagnosis
         elif selection == "q":
             return
-# main()
+main()
 
 def test_assess_skin():
     print(assess_skin("1") == some_dehydration)
@@ -91,4 +91,4 @@ def test_assess_skin():
 def test_assess_appearance():
     print(assess_appearance())
     
-test_assess_appearance()
+# test_assess_appearance()
